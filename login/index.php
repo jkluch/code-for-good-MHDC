@@ -47,6 +47,10 @@ else if ($action == 'check_login') {
     	header("Location: /code-for-good-MHDC/view/error.php");
     }
 }
+else if($action == 'logout'){
+	unset($_SESSION["session_type"]);
+	header("Location: /code-for-good-MHDC/login/");
+}
 //If the dropdown has been selected this runs
 //this will show the dropdown again as well as the tables
 
