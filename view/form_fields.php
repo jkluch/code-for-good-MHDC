@@ -1,14 +1,16 @@
 <?php
-$data = file_get_contents('~/code-for-good-MHDC/model/homerepair-intake.html');
+$data = file_get_contents('../model/homerepair-intake.html');
 $dom = new domDocument;
 
 $dom->loadHTML($data);
-$tables = $dom->getElementsByTagName('table');
-
-$rows = $tables->item(1)->getElementsByTagName('tr');
+// $tables = $dom->getElementsByTagName('table');
+// echo var_dump($tables);
+// $rows = $tables->item(1)->getElementsByTagName('tr');
+$rows = $dom->getElementsByTagName('tr');
 echo "<form>";
 foreach ($rows as $row) {
-    $cols = $row->getElementsByTagName('td');
+    $cols = $dom->getElementsByTagName('td');
+    echo var_dump($cols[0]->nodeValue);
     if (strpos($cols[3], '?') !== false) {
         echo "$cols[3]
             <input type='radio' value='yes'>Yes<br>

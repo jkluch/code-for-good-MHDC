@@ -8,14 +8,9 @@ function check_account($username, $password) {
     // $user = $user->fetch();
     // return $user;
     echo 'Before';
-    
-    if(!$mysqli->query("SELECT username FROM user WHERE username = '$username' AND password = '$password'")){
-        echo $mysqli->errno;
-        echo $mysqli->error;
-    }
-    else{
-        echo 'else';
-    }
+    global $mysqli;
+    $user = $mysqli->query("SELECT username FROM user WHERE username = '$username' AND password = '$password'");
+
     echo 'After';
     return $user;
 }

@@ -32,12 +32,15 @@ else if ($action == 'check_login') {
     $user = check_account($username, $password);
     echo var_dump($user);
     //If user isn't found go back to login page and say user not found
-    if(isset($user)){
-        header("Location: /code-for-good-MHDC/view/images/header-logo.png");
+    if($user == 'client'){
+        header("Location: /code-for-good-MHDC/client");
     }
     //If user is found and he is a customer
+    else if($user == 'admin'){
+        header("Location: /code-for-good-MHDC/employee");
+    }
     else{
-        header("Location: /code-for-good-MHDC/view/images/footer-bottom.png");
+    	header("Location: /code-for-good-MHDC/view/error.php");
     }
 }
 //If the dropdown has been selected this runs
