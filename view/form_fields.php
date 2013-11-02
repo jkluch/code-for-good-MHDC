@@ -6,7 +6,7 @@ $dom->loadHTML($data);
 $tables = $dom->getElementsByTagName('table');
 
 $rows = $tables->item(1)->getElementsByTagName('tr');
-
+echo "<form>";
 foreach ($rows as $row) {
     $cols = $row->getElementsByTagName('td');
     if (strpos($cols[3], '?') !== false) {
@@ -17,5 +17,7 @@ foreach ($rows as $row) {
         echo "$cols[3]: <input type='text' name='$cols[3]'>";
     }
 }
+echo "<input type='submit' value='Submit'>";
+echo "</form>";
 
 ?>
