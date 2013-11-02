@@ -14,7 +14,7 @@ if (isset($_POST['action'])) {
 
 //No Selection just causes the dropdown to show
 if($action == 'login'){
-	if(session_name() == 'client'){
+	if($_SESSION['session_type'] = 'client'){
 		header("Location: /code-for-good-MHDC/client");
 	}
 	else{
@@ -35,12 +35,12 @@ else if ($action == 'check_login') {
     //If user isn't found go back to login page and say user not found
    	
     if($user[0] == 'client'){
-    	session_name('client');
+    	$_SESSION['session_type'] = 'client';
         header("Location: /code-for-good-MHDC/client");
     }
     //If user is found and he is a customer
     else if($user[0] == 'admin'){
-    	session_name('admin');
+    	$_SESSION['session_type'] = 'admin';
         header("Location: /code-for-good-MHDC/employee");
     }
     else{

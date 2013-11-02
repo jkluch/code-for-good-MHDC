@@ -1,8 +1,6 @@
 <?php
-session_name();
-echo session_name();
 session_start();
-echo session_name();
+echo $_SESSION['session_type'];
 ?>
 <html>
 <a href="../login/index.php">test</a>
