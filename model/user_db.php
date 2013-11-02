@@ -7,7 +7,7 @@ function check_account($username, $password) {
     // $user = $db->query($query);
     // $user = $user->fetch();
     // return $user;
-    echo 'Connect Error (' . mysqli_connect_errno() . ') '. mysqli_connect_error());
+    //echo 'Connect Error (' . mysqli_connect_errno() . ') '. mysqli_connect_error());
     echo 'Before';
     
     if(!$mysqli->query("SELECT username FROM user WHERE username = '$username' AND password = '$password'")){
