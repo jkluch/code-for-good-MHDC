@@ -37,10 +37,10 @@ else if ($action == 'in_progress') {
     include 'view/in_progress.php';
     include 'view/footer.php';
 }
-else if ($action == 'complete') {
+else if ($action == 'completed') {
     include 'view/header.php';
     include 'view/form_header.php';
-    include 'view/complete.php';
+    include 'view/completed.php';
     include 'view/footer.php';
 }
 else if ($action == 'approved') {
@@ -53,6 +53,12 @@ else if ($action == 'not_requirements') {
     include 'view/header.php';
     include 'view/form_header.php';
     include 'view/not_requirements.php';
+    include 'view/footer.php';
+}
+else if ($action == 'form_info') {
+    include 'view/header.php';
+    include 'view/form_header.php';
+    include 'view/mock_form_comments.php';
     include 'view/footer.php';
 }
 else if ($action == 'edit_form') {
