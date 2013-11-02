@@ -28,7 +28,7 @@ else if ($action == 'check_login') {
     
     //Check for user
     $user = check_account($username, $password);
-    echo var_dump($user);
+    echo $user;
     //If user isn't found go back to login page and say user not found
    	
     // if($user == 'client'){
