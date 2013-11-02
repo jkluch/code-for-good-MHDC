@@ -6,6 +6,7 @@
             <thead>
                 <tr>
                     <th>Field</th>
+                    <th>Entry</th>
                     <th>&nbsp;</th>
                 </tr>
             </thead>
@@ -19,8 +20,10 @@
                            value="form_id_number" />
                     <input type="hidden" name="field_id"
                            value="field_id_number" />
-                    <input type="submit" value="Delete" />
+                    <input type="submit" value="Edit" />
                 </form></td>
+            </tr>
+            <tr>
                 <th>Last Name</th>
                 <td>Smith</td>
                 <td><form action="." method="post">
@@ -30,8 +33,10 @@
                            value="form_id_number" />
                     <input type="hidden" name="field_id"
                            value="field_id_number" />
-                    <input type="submit" value="Delete" />
+                    <input type="submit" value="Edit" />
                 </form></td>
+            </tr>
+            <tr>
                 <th>Phone Number</th>
                 <td>555-555-5555</td>
                 <td><form action="." method="post">
@@ -41,8 +46,10 @@
                            value="form_id_number" />
                     <input type="hidden" name="field_id"
                            value="field_id_number" />
-                    <input type="submit" value="Delete" />
+                    <input type="submit" value="Edit" />
                 </form></td>
+            </tr>
+            <tr>
                 <th>State</th>
                 <td>DE</td>
                 <td><form action="." method="post">
@@ -52,10 +59,9 @@
                            value="form_id_number" />
                     <input type="hidden" name="field_id"
                            value="field_id_number" />
-                    <input type="submit" value="Delete" />
+                    <input type="submit" value="Edit" />
                 </form></td>
             </tr>
-            <?php endforeach; ?>
         </table>
     </div>
 </div>
