@@ -51,6 +51,7 @@
     position: relative;
     float:left;
     left: 50%;
+    clear: both;
 }
 .cfgCSS #form_head{
     position: relative;
