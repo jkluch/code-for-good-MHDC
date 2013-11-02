@@ -18,9 +18,14 @@ if($action == 'login'){
 }
 //If the dropdown has been selected this runs
 //this will show the dropdown again as well as the tables
-elseif ($action == 'thinker_dropdown') {
 
-}
+// elseif ($action == 'check_login') {
+// 	if($user == 'client'){
+// 		$_
+//         $user_id = $user['userID'];
+//         header("Location: /code-for-good-MHDC/client/");
+//     }
+// }
 
 
 ?>
