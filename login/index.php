@@ -15,6 +15,10 @@ if (isset($_POST['action'])) {
 //No Selection just causes the dropdown to show
 if($action == 'login'){
 	if($_SESSION['session_type'] = 'client'){
+		session_start();
+		unset($_SESSION["session_type"]);
+		$_SESSION = array();
+		session_destroy();
 		header("Location: /code-for-good-MHDC/client");
 	}
 	else{
