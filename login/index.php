@@ -14,9 +14,14 @@ if (isset($_POST['action'])) {
 
 //No Selection just causes the dropdown to show
 if($action == 'login'){
-    include 'view/header.php';
-    include 'view/login.php';
-    include 'view/footer.php';
+	if((session_name() == 'client'){
+		header("Location: /code-for-good-MHDC/client");
+	}
+	else{
+    	include 'view/header.php';
+    	include 'view/login.php';
+    	include 'view/footer.php';
+	}
 }
 else if ($action == 'check_login') {
     // Get the fields
@@ -25,16 +30,17 @@ else if ($action == 'check_login') {
     //Strip special characters from username and password
     $username = strip_special($username);
     $password = strip_special($password);
-    
     //Check for user
     $user = check_account($username, $password);
     //If user isn't found go back to login page and say user not found
    	
     if($user[0] == 'client'){
+    	session_name('client');
         header("Location: /code-for-good-MHDC/client");
     }
     //If user is found and he is a customer
     else if($user[0] == 'admin'){
+    	session_name('admin');
         header("Location: /code-for-good-MHDC/employee");
     }
     else{
