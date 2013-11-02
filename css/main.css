@@ -16,6 +16,15 @@
 .cfgCSS p {
     margin: 0;
 }
+.cfgCSS caption{
+    text-align: center;
+}
+.cfgCSS table{
+    border: 1px;
+}
+.cfgCSS th td{
+    padding: 3px;
+}
 .cfgCSS #center_container{
     position: relative;
     float: left;
