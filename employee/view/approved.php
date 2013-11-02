@@ -2,14 +2,14 @@
     
     <div id="ad_form">
         <table border='1'>
-            <caption><b>Pending Approval</b></caption>
+            <caption><b>Project Approved</b></caption>
             <thead>
                 <tr>
                     <th>Form Type</th>
                     <th>Client</th>
                     <th>Form Status</th>
                     <th>Documents</th>
-                    <th>Pending Since</th>
+                    <th>Approved On</th>
                     <th>Form Link</th>
                 </tr>
             </thead>
@@ -25,7 +25,7 @@
                 <tr>
                     <td>Home Repair</td>
                     <td>Adam Johnson</td>
-                    <td>Incomplete</td>
+                    <td>Complete</td>
                     <td>Submitted</td>
                     <td>10/29/2013</td>
                     <td><a href=".">Link</a></td>

@@ -13,6 +13,13 @@
                 <input type="submit" id="submit" value="Self Help">
             </form>
         </div>
+        <div style="clear: both;">
+            <a href=".?action=not_complete">Not Complete</a>
+            <a href="">Pending Approval</a>
+            <a href="">Approved</a>
+            <a href="">In Progress</a>
+            <a href="">Completed Project</a>
+        </div>
     </div>
 
     <!-- <div id="login">
