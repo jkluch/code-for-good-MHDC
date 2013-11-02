@@ -55,6 +55,12 @@ else if ($action == 'not_requirements') {
     include 'view/not_requirements.php';
     include 'view/footer.php';
 }
+else if ($action == 'edit_form') {
+    include 'view/header.php';
+    include 'view/form_header.php';
+    include 'view/mock_form_edit.php';
+    include 'view/footer.php';
+}
 //If the dropdown has been selected this runs
 //this will show the dropdown again as well as the tables
 

@@ -22,7 +22,7 @@
             <a style="border: 1px solid;" href=".?action=approved">Approved</a>
             <a style="border: 1px solid;" href=".?action=in_progress">In Progress</a>
             <a style="border: 1px solid;" href=".?action=completed">Completed Project</a>
-            <a style="border: 1px solid;" href=".?action=not_requirements">Requirements Not Ment</a>
+            <a style="border: 1px solid;" href=".?action=not_requirements">Requirements Not Met</a>
         </div>
     </div>
 
