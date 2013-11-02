@@ -23,6 +23,7 @@
     <div id="ad_form">
         <a href=".">Add Comment</a>
     </div>
+    <p></p>
     <div id="ad_form">
         <a href=".?action=edit_form">Edit/View Form</a>
     </div>
