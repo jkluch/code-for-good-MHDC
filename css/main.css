@@ -20,10 +20,13 @@
     text-align: center;
 }
 .cfgCSS table, th, td{
-    border: 1px;
+    border: 1px black;
 }
 .cfgCSS th td{
     padding: 3px;
+}
+.cfgCSS th{
+    text-align: center;
 }
 .cfgCSS #center_container{
     position: relative;

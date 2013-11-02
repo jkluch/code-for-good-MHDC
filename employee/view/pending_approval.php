@@ -15,7 +15,7 @@
         </div> -->
 
         <table border='1'>
-            <caption><b><u>Pending Approval</u></b></caption>
+            <caption><b>Pending Approval</b></caption>
             <thead>
                 <tr>
                     <th>Form Type</th>
