@@ -81,4 +81,4 @@
         </p>
     </div> -->
 </div><!-- end page -->
-<div style="left: 240px; position: fixed; top: 292px;">Welcome Deb.</div>
+<div style="left: -196px; position: relative; top: 92px;">Welcome Deb.</div>
