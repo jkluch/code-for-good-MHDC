@@ -18,6 +18,8 @@
             </tbody>
         </table>
     </div>
+</div>
+<div id="ad_form_container">
     <div id="ad_form">
         <a href=".?action=edit_form">Add Comment</a>
     </div>
