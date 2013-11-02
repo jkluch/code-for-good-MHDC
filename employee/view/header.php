@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <html lang="en-US">
 	<head>
 		<meta charset="UTF-8">
@@ -5,24 +9,26 @@
 		<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Walter+Turncoat">
 		<title>Milford Housing Development Corporation | Affordable Housing Solutions</title>
 		<link href="http://gmpg.org/xfn/11" rel="profile">
-		<link href="http://milfordhousing.com/wp-content/themes/mhdc/style.css" media="all" type="text/css" rel="stylesheet">
-		<link href="http://milfordhousing.com/xmlrpc.php" rel="pingback">
+		<link href="../css/style.css" media="all" type="text/css" rel="stylesheet">
+		<!-- <link href="http://milfordhousing.com/xmlrpc.php" rel="pingback"> -->
 		<!--[if lt IE 9]>
 		<script src="http://milfordhousing.com/wp-content/themes/mhdc/js/html5.js" type="text/javascript"></script>
 		<![endif]-->
-		<link href="http://milfordhousing.com/feed" title="Milford Housing Development Corporation » Feed" type="application/rss+xml" rel="alternate">
+		<!-- <link href="http://milfordhousing.com/feed" title="Milford Housing Development Corporation » Feed" type="application/rss+xml" rel="alternate">
 		<link href="http://milfordhousing.com/comments/feed" title="Milford Housing Development Corporation » Comments Feed" type="application/rss+xml" rel="alternate">
-		<link media="all" type="text/css" href="http://milfordhousing.com/wp-content/plugins/nivo-slider/scripts/nivo-slider/nivo-slider.css?ver=3.5.2" id="nivoslider-css" rel="stylesheet">
-		<script src="http://milfordhousing.com/wp-includes/js/jquery/jquery.js?ver=1.8.3" type="text/javascript"></script>
-		<link href="http://milfordhousing.com/xmlrpc.php?rsd" title="RSD" type="application/rsd+xml" rel="EditURI">
-		<link href="http://milfordhousing.com/wp-includes/wlwmanifest.xml" type="application/wlwmanifest+xml" rel="wlwmanifest"> 
-		<meta content="WordPress 3.5.2" name="generator">
+		<link media="all" type="text/css" href="http://milfordhousing.com/wp-content/plugins/nivo-slider/scripts/nivo-slider/nivo-slider.css?ver=3.5.2" id="nivoslider-css" rel="stylesheet"> -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<!--<script src="http://milfordhousing.com/wp-includes/js/jquery/jquery.js?ver=1.8.3" type="text/javascript"></script>-->
+		<!-- <link href="http://milfordhousing.com/xmlrpc.php?rsd" title="RSD" type="application/rsd+xml" rel="EditURI"> -->
+		<!-- <link href="http://milfordhousing.com/wp-includes/wlwmanifest.xml" type="application/wlwmanifest+xml" rel="wlwmanifest"> -->
+		<!-- <meta content="WordPress 3.5.2" name="generator"> -->
 		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<link href="../css/main.css" type="text/css" rel="stylesheet">
 	</head>
 	<body>
 		<div id="logo-container">
 			<a href="/"></a>
-			<div id="logo-box"><a href="/"><img src="http://milfordhousing.com/wp-content/themes/mhdc/images/header-logo.png"></a></div>
+			<div id="logo-box"><a href="/"><img src="../view/images/header-logo.png"></a></div>
 		</div>
 		<div id="nav-container">
 			<nav role="navigation" id="access">
@@ -61,8 +67,8 @@
 		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-175" id="menu-item-175"><a href="http://milfordhousing.com/other-services/financial-fitness">Financial Fitness</a></li>
 		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-176" id="menu-item-176"><a href="http://milfordhousing.com/other-services/site-development">Site Development</a></li>
 		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-178" id="menu-item-178"><a href="http://milfordhousing.com/contact-us">Contact Us</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-179" id="menu-item-179"><a href="http://localhost/MHDC/login">Online Help</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-179" id="menu-item-179"><a href="http://localhost/code-for-good-MHDC/login">Online Help</a></li>
 		</ul></div>	</nav><!-- #access -->
 		</div>
-	</body>
-</html>
+		<div class="cfgCSS">
+		<div id="page">
