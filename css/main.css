@@ -34,6 +34,17 @@
     left: -50%;
     margin: 28px 0px;
 }
+.cfgCSS #form_head_container{
+    position: relative;
+    float:left;
+    left: 50%;
+}
+.cfgCSS #form_head{
+    position: relative;
+    float:left;
+    left: -50%;
+    margin: 28px 0px;
+}
 .cfgCSS #header{
     text-align: center;
 }

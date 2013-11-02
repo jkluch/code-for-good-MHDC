@@ -1,15 +1,18 @@
 <div id="form_head_container">
     
     <div id="form_head">
-                <h1>Log In</h1>
-        <form action="." method="post" id="home_rep_form">
-            <input type="hidden" name="action" value="home_rep_form"/>
-            <input type="submit" id="submit" value="Home Repair Program">
-        </form>
-        <form action="." method="post" id="self_help_form">
-            <input type="hidden" name="action" value="self_help_form"/>
-            <input type="submit" id="submit" value="Self Help">
-        </form>
+        <div style="float: left;">
+            <form action="." method="post" id="home_rep_form">
+                <input type="hidden" name="action" value="home_rep_form"/>
+                <input type="submit" id="submit" value="Home Repair Program">
+            </form>
+        </div>
+        <div style="float: left;">
+            <form action="." method="post" id="self_help_form">
+                <input type="hidden" name="action" value="self_help_form"/>
+                <input type="submit" id="submit" value="Self Help">
+            </form>
+        </div>
     </div>
 
     <!-- <div id="login">

@@ -16,6 +16,7 @@ if (isset($_POST['action'])) {
 if($action == 'default'){
 	include 'view/header.php';
 	include 'view/form_header.php';
+    include 'view/pending_approval.php';
 	include 'view/footer.php';
 }
 else if ($action == 'check_login') {
