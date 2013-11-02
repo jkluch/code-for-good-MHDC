@@ -1,8 +1,8 @@
 <?php
 //model.php has all the functions used for this website
-require('/model/database.php');
-require('/model/user_db.php');
-require('/model/scrubber.php');
+require('../model/database.php');
+require('../model/user_db.php');
+require('../model/scrubber.php');
 
 if (isset($_POST['action'])) {
     $action = $_POST['action'];
