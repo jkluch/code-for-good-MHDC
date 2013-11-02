@@ -19,7 +19,7 @@
 .cfgCSS caption{
     text-align: center;
 }
-.cfgCSS table th td{
+.cfgCSS table, th, td{
     border: 1px;
 }
 .cfgCSS th td{
