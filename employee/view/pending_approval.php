@@ -43,21 +43,6 @@
                     <td>10/29/2013</td>
                     <td><a href=".">Link</a></td>
                 </tr>
-
-                    $influenced = $thinker->influenced;
-                    foreach ($influenced as $value) {
-                        $in_thinker = getThinker($value);
-                        echo    "<tr>
-                                    <td>$thinker->label</td>
-                                    <td>$in_thinker->label</td>
-                                    <td>$in_thinker->death_string</td>
-                                    <td>$in_thinker->birth_string</td>
-                                </tr>";
-                    }
-                    if (($influenced_by == null)&&($influenced == null)) {
-                        echo "<tr><td colspan=4>There are no related thinkers.</td></tr>";
-                    }
-                ?>
             </tbody>
         </table>
 
