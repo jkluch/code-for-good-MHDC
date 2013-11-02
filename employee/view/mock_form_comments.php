@@ -21,6 +21,9 @@
 </div>
 <div id="ad_form_container">
     <div id="ad_form">
-        <a href=".?action=edit_form">Add Comment</a>
+        <a href=".">Add Comment</a>
+    </div>
+    <div id="ad_form">
+        <a href=".?action=edit_form">Edit/View Form</a>
     </div>
 </div>
