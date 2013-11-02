@@ -16,7 +16,7 @@ if (isset($_POST['action'])) {
 if($action == 'login'){
 	if($_SESSION['session_type'] = 'client'){
 		session_start();
-		unset($_SESSION["session_type"]);
+		unset($_SESSION['session_type']);
 		$_SESSION = array();
 		session_destroy();
 		header("Location: /code-for-good-MHDC/client");
