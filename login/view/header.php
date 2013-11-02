@@ -1,6 +1,8 @@
 <?php
 session_name();
+echo session_name();
 session_start();
+echo session_name();
 ?>
 
 <html lang="en-US">
