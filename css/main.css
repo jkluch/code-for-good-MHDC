@@ -1,0 +1,45 @@
+.cfgCSS h1{
+    font-size: 24px;
+    text-align: center;
+}
+.cfgCSS input{
+    /*text-align: center;*/
+    padding: 3px;
+}
+.cfgCSS #submit_actions{
+    text-align: center;
+    /*margin-bottom: 1.625em;*/
+}
+.cfgCSS body {
+    
+}
+.cfgCSS p {
+    margin: 0;
+}
+.cfgCSS #center_container{
+    position: relative;
+    float: left;
+    width: 100%;
+    min-width: 500px;
+    overflow: hidden;
+}
+.cfgCSS #login_container{
+    position: relative;
+    float:left;
+    left: 50%;
+}
+.cfgCSS #login{
+    position: relative;
+    float:left;
+    left: -50%;
+    margin: 28px 0px;
+}
+.cfgCSS #header{
+    text-align: center;
+}
+.cfgCSS #footer{
+    text-align: center;
+    clear: both;
+    padding: 1.625em 0;
+    background: url("http://milfordhousing.com/wp-content/themes/mhdc/images/footer-bottom.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}

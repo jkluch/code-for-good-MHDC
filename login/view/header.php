@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <html lang="en-US">
 	<head>
 		<meta charset="UTF-8">
@@ -18,6 +22,7 @@
 		<link href="http://milfordhousing.com/wp-includes/wlwmanifest.xml" type="application/wlwmanifest+xml" rel="wlwmanifest"> 
 		<meta content="WordPress 3.5.2" name="generator">
 		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+		<link href="../css/main.css" type="text/css" rel="stylesheet">
 	</head>
 	<body>
 		<div id="logo-container">
@@ -61,8 +66,8 @@
 		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-175" id="menu-item-175"><a href="http://milfordhousing.com/other-services/financial-fitness">Financial Fitness</a></li>
 		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-176" id="menu-item-176"><a href="http://milfordhousing.com/other-services/site-development">Site Development</a></li>
 		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-178" id="menu-item-178"><a href="http://milfordhousing.com/contact-us">Contact Us</a></li>
-		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-179" id="menu-item-179"><a href="http://localhost/MHDC/login">Online Help</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-179" id="menu-item-179"><a href="http://localhost/code-for-good-MHDC/login">Online Help</a></li>
 		</ul></div>	</nav><!-- #access -->
 		</div>
-	</body>
-</html>
+		<div class="cfgCSS">
+		<div id="page">
