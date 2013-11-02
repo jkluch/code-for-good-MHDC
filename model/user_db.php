@@ -10,7 +10,7 @@ function check_account($username, $password) {
     echo 'Before';
     global $mysqli;
         if($user = $mysqli->query("SELECT username FROM user WHERE username = '$username' AND password = '$password'")){
-            return $user;
+            return $user->fetch_row();
         }
 
     echo 'After';
