@@ -7,13 +7,11 @@ function check_account($username, $password) {
     // $user = $db->query($query);
     // $user = $user->fetch();
     // return $user;
-    echo 'Before';
     global $mysqli;
         if($user = $mysqli->query("SELECT username FROM user WHERE username = '$username' AND password = '$password'")){
             return $user->fetch_row();
         }
 
-    echo 'After';
     return NULL;
 }
 //Adds a new account to the database
