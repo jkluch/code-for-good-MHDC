@@ -28,18 +28,19 @@ else if ($action == 'check_login') {
     
     //Check for user
     $user = check_account($username, $password);
+    echo var_dump($user);
     //If user isn't found go back to login page and say user not found
    	
-    if($user == 'client'){
-        header("Location: /code-for-good-MHDC/client");
-    }
-    //If user is found and he is a customer
-    else if($user == 'admin'){
-        header("Location: /code-for-good-MHDC/employee");
-    }
-    else{
-    	header("Location: /code-for-good-MHDC/view/error.php");
-    }
+    // if($user == 'client'){
+    //     header("Location: /code-for-good-MHDC/client");
+    // }
+    // //If user is found and he is a customer
+    // else if($user == 'admin'){
+    //     header("Location: /code-for-good-MHDC/employee");
+    // }
+    // else{
+    // 	header("Location: /code-for-good-MHDC/view/error.php");
+    // }
 }
 //If the dropdown has been selected this runs
 //this will show the dropdown again as well as the tables
