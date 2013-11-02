@@ -1,5 +1,4 @@
 <div id="form_head_container">
-    
     <div id="form_head">
         <div style="float: left;">
             <form action="." method="post" id="home_rep_form">
@@ -13,12 +12,17 @@
                 <input type="submit" id="submit" value="Self Help">
             </form>
         </div>
+    </div>
+</div>
+<div id="form_head_container">
+    <div id="form_head">
         <div style="clear: both;">
-            <a href=".?action=not_complete">Not Complete</a>
-            <a href="">Pending Approval</a>
-            <a href="">Approved</a>
-            <a href="">In Progress</a>
-            <a href="">Completed Project</a>
+            <a style="border: 1px solid;" href=".?action=not_complete">Not Complete</a>
+            <a style="border: 1px solid;" href=".?action=pending_approval">Pending Approval</a>
+            <a style="border: 1px solid;" href=".?action=approved">Approved</a>
+            <a style="border: 1px solid;" href=".?action=in_progress">In Progress</a>
+            <a style="border: 1px solid;" href=".?action=completed">Completed Project</a>
+            <a style="border: 1px solid;" href=".?action=not_requirements">Requirements Not Ment</a>
         </div>
     </div>
 

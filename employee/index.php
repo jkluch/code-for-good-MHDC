@@ -19,10 +19,40 @@ if($action == 'default'){
     include 'view/pending_approval.php';
 	include 'view/footer.php';
 }
+else if ($action == 'pending_approval') {
+    include 'view/header.php';
+    include 'view/form_header.php';
+    include 'view/pending_approval.php';
+    include 'view/footer.php';
+}
 else if ($action == 'not_complete') {
     include 'view/header.php';
     include 'view/form_header.php';
     include 'view/not_complete.php';
+    include 'view/footer.php';
+}
+else if ($action == 'in_progress') {
+    include 'view/header.php';
+    include 'view/form_header.php';
+    include 'view/in_progress.php';
+    include 'view/footer.php';
+}
+else if ($action == 'complete') {
+    include 'view/header.php';
+    include 'view/form_header.php';
+    include 'view/complete.php';
+    include 'view/footer.php';
+}
+else if ($action == 'approved') {
+    include 'view/header.php';
+    include 'view/form_header.php';
+    include 'view/approved.php';
+    include 'view/footer.php';
+}
+else if ($action == 'not_requirements') {
+    include 'view/header.php';
+    include 'view/form_header.php';
+    include 'view/not_requirements.php';
     include 'view/footer.php';
 }
 //If the dropdown has been selected this runs
