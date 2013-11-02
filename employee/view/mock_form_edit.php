@@ -57,7 +57,5 @@
             </tr>
             <?php endforeach; ?>
         </table>
-        <p><a href="?action=show_add_form">Add Product</a></p>
-        <p><a href="?action=list_categories">List Categories</a></p>
     </div>
 </div>
