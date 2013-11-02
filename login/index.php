@@ -18,6 +18,7 @@ if($action == 'login'){
 		header("Location: /code-for-good-MHDC/client");
 	}
 	else{
+		echo session_name();
     	include 'view/header.php';
     	include 'view/login.php';
     	include 'view/footer.php';
