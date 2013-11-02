@@ -14,7 +14,7 @@ if (isset($_POST['action'])) {
 
 //No Selection just causes the dropdown to show
 if($action == 'login'){
-	if((session_name() == 'client'){
+	if(session_name() == 'client'){
 		header("Location: /code-for-good-MHDC/client");
 	}
 	else{
