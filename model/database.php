@@ -16,7 +16,7 @@
         die('Setting MYSQLI_OPT_CONNECT_TIMEOUT failed');
     }
 
-    if (!$mysqli->real_connect('localhost', 'test', 'test', 'milford_housing')) {
+    if (!$mysqli->real_connect('localhost', 'root', 'bitnami', 'milford_housing')) {
         die('Connect Error (' . mysqli_connect_errno() . ') '
                 . mysqli_connect_error());
     }
