@@ -50,6 +50,7 @@ else if ($action == 'check_login') {
 else if($action == 'logout'){
 	session_start();
 	unset($_SESSION["session_type"]);
+	$_SESSION = array();
 	session_destroy();
 	header("Location: /code-for-good-MHDC/login/");
 }
