@@ -1,11 +1,13 @@
 <?php
 //Pulls a users account if it exists
-function check_account($email_address, $password) {
-    global $db;
-    $query = "SELECT userID, categoryID FROM users
-              WHERE `email` = '$email_address' AND `pass` = '$password'";
-    $user = $db->query($query);
-    $user = $user->fetch();
+function check_account($username, $password) {
+    // global $db;
+    // $query = "SELECT userID, categoryID FROM users
+    //           WHERE `email` = '$email_address' AND `pass` = '$password'";
+    // $user = $db->query($query);
+    // $user = $user->fetch();
+    // return $user;
+    $user = $mysqli->query("SELECT 'username' FROM 'user' WHERE 'username' = '$username' AND 'password' = '$password");
     return $user;
 }
 //Adds a new account to the database

@@ -4,11 +4,12 @@
         <form action="index.php" method="post" id="login_form">
             <h1>Log In</h1>
             <fieldset id="inputs">
+                <input type="hidden" name="action" value="check_login"/>
                 <p>
-                <input id="username" type="text" placeholder="Username" autofocus required>
+                <input id="username" name="username" type="text" placeholder="Username" autofocus required>
                 </p>
                 <p>
-                <input id="password" type="password" placeholder="Password" required>
+                <input id="password" name="password" type="password" placeholder="Password" required>
                 </p>
                 <p>
                 <input id="nickname" type="text" placeholder="Nickname or Full Name" required>
