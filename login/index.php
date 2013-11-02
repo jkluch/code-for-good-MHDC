@@ -50,6 +50,7 @@ else if ($action == 'check_login') {
 else if($action == 'logout'){
 	session_start();
 	unset($_SESSION["session_type"]);
+	session_destroy();
 	header("Location: /code-for-good-MHDC/login/");
 }
 //If the dropdown has been selected this runs
