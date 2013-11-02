@@ -9,10 +9,12 @@ function check_account($username, $password) {
     // return $user;
     echo 'Before';
     global $mysqli;
-    $user = $mysqli->query("SELECT username FROM user WHERE username = '$username' AND password = '$password'");
+        if($user = $mysqli->query("SELECT username FROM user WHERE username = '$username' AND password = '$password'")){
+            return $user;
+        }
 
     echo 'After';
-    return $user;
+    return NULL;
 }
 //Adds a new account to the database
 function add_account($account_type, $email_address, $password){
