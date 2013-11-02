@@ -1,7 +1,7 @@
 <div id="login_container">
     
     <div id="login">
-        <form action="index.php" method="post" id="login_form">
+        <form action="." method="post" id="login_form">
             <h1>Log In</h1>
             <fieldset id="inputs">
                 <input type="hidden" name="action" value="check_login"/>

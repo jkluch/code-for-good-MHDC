@@ -22,7 +22,8 @@ else if ($action == 'check_login') {
     // Get the fields
     $username = $_POST['username'];
     $password = $_POST['password'];
-    
+    echo $username;
+    echo $password;
     //Strip special characters from username and password
     $username = strip_special($username);
     $password = strip_special($password);
