@@ -17,7 +17,7 @@
                 </tr>
             </tbody>
         </table>
-        <a style="text-alignment: center;" href=".?action=edit_form">Add Comment</a>
+        <a style="text-align: center;" href=".?action=edit_form">Add Comment</a>
 
     </div>
 </div>
