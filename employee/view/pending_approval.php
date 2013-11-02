@@ -20,7 +20,7 @@
                     <td>Complete</td>
                     <td>Submitted</td>
                     <td>10/25/2013</td>
-                    <td><a href=".?action=edit_form">Link</a></td>
+                    <td><a href=".?action=form_info">Link</a></td>
                 </tr>
                 <tr>
                     <td>Home Repair</td>
